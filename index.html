@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chandraniv Chakraborty — Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- ── NAVBAR ── -->
+<header class="navbar" id="navbar">
+  <a href="#home" class="nav-logo">&lt;CC /&gt;</a>
+  <nav class="nav-links">
+    <a href="#about">ABOUT</a>
+    <a href="#skills">SKILLS</a>
+    <a href="#education">EDUCATION</a>
+    <a href="#projects">PROJECTS</a>
+    <a href="#certificates">CERTIFICATES</a>
+    <a href="#contact">CONTACT</a>
+  </nav>
+  <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+</header>
+
+<div class="mobile-nav" id="mobileNav">
+  <a href="#about" class="mob-link">ABOUT</a>
+  <a href="#skills" class="mob-link">SKILLS</a>
+  <a href="#education" class="mob-link">EDUCATION</a>
+  <a href="#projects" class="mob-link">PROJECTS</a>
+  <a href="#certificates" class="mob-link">CERTIFICATES</a>
+  <a href="#contact" class="mob-link">CONTACT</a>
+</div>
+
+<!-- ── PARTICLES ── -->
+<canvas id="particleCanvas"></canvas>
+
+<!-- ══════════════ HERO ══════════════ -->
+<section class="hero" id="home">
+
+  <!-- LEFT -->
+  <div class="hero-left">
+    <div class="avail-badge">
+      <span class="avail-dot"></span>
+      Available for opportunities
+    </div>
+
+    <p class="hi-line">Hi, I am</p>
+    <h1 class="hero-name">Chandraniv<br>Chakraborty</h1>
+
+    <div class="typed-row">
+      <span class="typed-arrow">→</span>
+      <span id="typed"></span>
+    </div>
+
+    <p class="hero-desc">
+      Computer Science student at Meghnad Saha Institute of Technology.
+      Passionate about backend systems, AI/ML, and turning ideas into
+      functional, elegant software.
+    </p>
+
+    <hr class="hero-divider"/>
+
+    <div class="hero-stats">
+      <div class="stat">
+        <span class="stat-n">100+</span>
+        <span class="stat-l">DSA Problems</span>
+      </div>
+      <div class="stat">
+        <span class="stat-n">3+</span>
+        <span class="stat-l">Projects</span>
+      </div>
+      <div class="stat">
+        <span class="stat-n">9.46</span>
+        <span class="stat-l">Best SGPA</span>
+      </div>
+    </div>
+
+    <hr class="hero-divider"/>
+
+    <div class="hero-btns">
+      <a href="assets/resume/Chandraniv_resume.pdf" class="btn-blue" target="_blank">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        Download Resume
+      </a>
+      <a href="https://github.com/" class="btn-outline" target="_blank">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+        GitHub
+      </a>
+      <a href="https://www.linkedin.com/in/chandranivchakraborty/" class="btn-outline" target="_blank">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+        LinkedIn
+      </a>
+    </div>
+  </div>
+
+  <!-- RIGHT – orbital profile -->
+  <div class="hero-right">
+    <div class="orbital-scene">
+      <!-- Rotating ring with chips -->
+      <div class="orbit-ring" id="orbitRing">
+        <div class="orbit-chip chip-python">🐍 Python/Backend </div>
+        <div class="orbit-chip chip-aiml">🤖 AI&ML/Data Analytics </div>
+        
+      </div>
+
+      <!-- Static profile circle in center -->
+      <div class="profile-circle">
+        <img src="assets/images/profile.png" alt="Chandraniv"
+          onerror="this.style.display='none';document.getElementById('ccFallback').style.display='flex';">
+        <div id="ccFallback" class="cc-fallback">CC</div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ══════════════ ABOUT ══════════════ -->
+<section id="about" class="section" data-aos="fade-up">
+  <div class="sec-tag"><span class="sec-num">01</span> / <span class="sec-name">ABOUT</span></div>
+  <h2 class="sec-title">About Me</h2>
+
+  <div class="about-grid">
+    <div class="about-text">
+      <p>I'm a second-year B.Tech Computer Science student at Meghnad Saha Institute of Technology, Kolkata. My journey into tech started with a deep curiosity for how things work — from logic gates to large-scale backend systems and intelligent AI models.</p>
+      <p>I focus on building a strong foundation in Data Structures &amp; Algorithms, Object-Oriented Programming, Database Management, and Python-based development. I have a particular passion for AI/ML and backend engineering — areas where I see myself making a real impact.</p>
+      <p>Outside of coding, I enjoy cricket, chess, art &amp; craft, and music — activities that keep my mind sharp and creative.</p>
+    </div>
+
+    <div class="about-cards">
+      <div class="acard" data-aos="fade-left" data-aos-delay="100">
+        <div class="acard-head"><span>⚡</span> Tech Stack</div>
+        <p>Python · Django · MySQL · C · NumPy · Pandas · Matplotlib</p>
+      </div>
+      <div class="acard" data-aos="fade-left" data-aos-delay="200">
+    <div class="acard-head"><span>🧠</span> DSA Progress</div>
+    <p>70+ problems solved on LeetCode.</p>
+    <a href="https://leetcode.com/u/Chandraniv_Chakraborty/" target="_blank" style="
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      margin-top: 10px;
+      background: #ffa116;
+      color: #fff;
+      font-size: 0.8rem;
+      font-weight: 700;
+      padding: 7px 14px;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: opacity 0.2s;
+    " onmouseover="this.style.opacity='0.85'" onmouseout="this.style.opacity='1'">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z"/>
+      </svg>
+      View LeetCode Profile
+    </a>
+  </div>
+      <div class="acard" data-aos="fade-left" data-aos-delay="300">
+        <div class="acard-head"><span>🎯</span> Interests</div>
+        <p>Cricket · Chess · Art &amp; Craft · Music</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ SKILLS ══════════════ -->
+<section id="skills" class="section section-gray" data-aos="fade-up">
+  <div class="sec-tag"><span class="sec-num">02</span> / <span class="sec-name">SKILLS</span></div>
+  <h2 class="sec-title">Tech Skills</h2>
+
+  <div class="skills-grid">
+
+    <div class="skill-card" data-aos="fade-up" data-aos-delay="50">
+      <h3 class="sk-title">Languages</h3>
+      <div class="sk-chips">
+        <span class="sk-chip">🐍 Python</span>
+        <span class="sk-chip">⚙️ C</span>
+      </div>
+    </div>
+
+    <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+      <h3 class="sk-title">Frameworks &amp; Libraries</h3>
+      <div class="sk-chips">
+        <span class="sk-chip">🦄 Django</span>
+        <span class="sk-chip">🔢 NumPy</span>
+        <span class="sk-chip">🐼 Pandas</span>
+        <span class="sk-chip">📊 Matplotlib</span>
+      </div>
+    </div>
+
+    <div class="skill-card" data-aos="fade-up" data-aos-delay="150">
+      <h3 class="sk-title">Database</h3>
+      <div class="sk-chips">
+        <span class="sk-chip">🗄️ MySQL</span>
+      </div>
+    </div>
+
+    <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+      <h3 class="sk-title">Core CS Concepts</h3>
+      <div class="sk-chips">
+        <span class="sk-chip">🔷 DSA</span>
+        <span class="sk-chip">🧩 OOP</span>
+        <span class="sk-chip">📚 DBMS</span>
+        <span class="sk-chip">💻 Computer Organization &amp; Architecture</span>
+      </div>
+    </div>
+
+    <div class="skill-card" data-aos="fade-up" data-aos-delay="250">
+      <h3 class="sk-title">AI &amp; ML</h3>
+      <div class="sk-chips">
+        <span class="sk-chip">🤖 Machine Learning (Learning)</span>
+        <span class="sk-chip">📈 Data Analytics</span>
+        <span class="sk-chip">🚀 Deep Learning (Learning)</span>
+        <span class="sk-chip">👁️ Computer Vision (Learning)</span>
+      </div>
+    </div>
+
+    <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
+      <h3 class="sk-title">Tools &amp; Platforms</h3>
+      <div class="sk-chips">
+        <span class="sk-chip">🐙 Git &amp; GitHub</span>
+        <span class="sk-chip">💻 VS Code</span>
+        <span class="sk-chip">🐧 Linux Basics</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══════════════ EDUCATION ══════════════ -->
+<section id="education" class="section" data-aos="fade-up">
+  <div class="sec-tag"><span class="sec-num">03</span> / <span class="sec-name">EDUCATION</span></div>
+  <h2 class="sec-title">Academic Journey</h2>
+
+  <!-- Horizontal timeline connector -->
+  <div class="edu-timeline">
+    <div class="edu-line">
+      <div class="edu-dot"></div>
+      <div class="edu-connector"></div>
+      <div class="edu-dot"></div>
+      <div class="edu-connector"></div>
+      <div class="edu-dot edu-dot-active"></div>
+    </div>
+  </div>
+
+  <!-- Three horizontal cards -->
+  <div class="edu-cards" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="edu-card">
+      <div class="edu-year">2022</div>
+      <h3 class="edu-degree">Class 10 — ICSE</h3>
+      <p class="edu-school">Maharishi Vidya Mandir, Kolkata</p>
+      <p class="edu-board">Board: CISCE</p>
+      <span class="edu-badge">ICSE Completed</span>
+    </div>
+
+    <div class="edu-card">
+      <div class="edu-year">2024</div>
+      <h3 class="edu-degree">Class 12 — Science + CS</h3>
+      <p class="edu-school">Future Campus School, Sonarpur, Kolkata</p>
+      <p class="edu-board">Board: CBSE</p>
+      <span class="edu-badge">CBSE Science Stream</span>
+    </div>
+
+    <div class="edu-card edu-card-active">
+      <div class="edu-year edu-year-active">2024 – Present</div>
+      <h3 class="edu-degree">B.Tech — Computer Science &amp; Engineering</h3>
+      <p class="edu-school">Meghnad Saha Institute of Technology, Kolkata</p>
+      <span class="edu-badge edu-badge-active">🚀 Currently Pursuing</span>
+    </div>
+
+  </div>
+
+  <!-- SGPA Journey -->
+  <div class="sgpa-section" data-aos="fade-up" data-aos-delay="200">
+    <h3 class="sgpa-title">SGPA Journey</h3>
+    <p class="sgpa-sub">B.Tech — Semester-wise academic progress</p>
+
+    <div class="sgpa-list">
+
+      <div class="sgpa-item">
+        <div class="sgpa-circle sgpa-circle-filled">1</div>
+        <div class="sgpa-info">
+          <span class="sgpa-sem">Semester 1</span>
+          <span class="sgpa-val">8.4 <small>SGPA</small></span>
+        </div>
+        <a href="assets/marksheets/sem1.pdf" class="sgpa-btn" target="_blank">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+          Marksheet
+        </a>
+      </div>
+
+      <div class="sgpa-item">
+        <div class="sgpa-circle sgpa-circle-filled">2</div>
+        <div class="sgpa-info">
+          <span class="sgpa-sem">Semester 2</span>
+          <span class="sgpa-val">9.46 <small>SGPA</small></span>
+        </div>
+        <a href="assets/marksheets/sem2.pdf" class="sgpa-btn" target="_blank">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+          Marksheet
+        </a>
+      </div>
+
+      <div class="sgpa-item">
+        <div class="sgpa-circle sgpa-circle-filled">3</div>
+        <div class="sgpa-info">
+          <span class="sgpa-sem">Semester 3</span>
+          <span class="sgpa-val">9.09 <small>SGPA</small></span>
+        </div>
+        <a href="assets/marksheets/sem3.pdf" class="sgpa-btn" target="_blank">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+          Marksheet
+        </a>
+      </div>
+
+      <div class="sgpa-item sgpa-upcoming">
+        <div class="sgpa-circle sgpa-circle-empty">4</div>
+        <div class="sgpa-info">
+          <span class="sgpa-sem">Semester 4</span>
+          <span class="sgpa-upcoming-label">Upcoming</span>
+        </div>
+      </div>
+
+      <div class="sgpa-item sgpa-upcoming">
+        <div class="sgpa-circle sgpa-circle-empty">5</div>
+        <div class="sgpa-info">
+          <span class="sgpa-sem">Semester 5</span>
+          <span class="sgpa-upcoming-label">Upcoming</span>
+        </div>
+      </div>
+
+      <div class="sgpa-item sgpa-upcoming">
+        <div class="sgpa-circle sgpa-circle-empty">6</div>
+        <div class="sgpa-info">
+          <span class="sgpa-sem">Semester 6</span>
+          <span class="sgpa-upcoming-label">Upcoming</span>
+        </div>
+      </div>
+
+      <div class="sgpa-item sgpa-upcoming">
+        <div class="sgpa-circle sgpa-circle-empty">7</div>
+        <div class="sgpa-info">
+          <span class="sgpa-sem">Semester 7</span>
+          <span class="sgpa-upcoming-label">Upcoming</span>
+        </div>
+      </div>
+
+      <div class="sgpa-item sgpa-upcoming">
+        <div class="sgpa-circle sgpa-circle-empty">8</div>
+        <div class="sgpa-info">
+          <span class="sgpa-sem">Semester 8</span>
+          <span class="sgpa-upcoming-label">Upcoming</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ PROJECTS ══════════════ -->
+<section id="projects" class="section section-gray" data-aos="fade-up">
+  <div class="sec-tag"><span class="sec-num">04</span> / <span class="sec-name">PROJECTS</span></div>
+  <h2 class="sec-title">Projects</h2>
+
+  <div class="proj-grid">
+
+    <div class="proj-card" data-aos="fade-up" data-aos-delay="100">
+      <div class="proj-top">
+        <div class="proj-icon">📊</div>
+        <div class="proj-actions">
+          <a href="#" class="proj-icon-btn" title="GitHub" target="_blank">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+          </a>
+          <a href="#" class="proj-icon-btn" title="Live Demo" target="_blank">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+        </div>
+      </div>
+      <h3 class="proj-name">Dataset Playground</h3>
+      <p class="proj-desc">A Python-based data analysis toolkit for loading, cleaning, transforming, and visualizing datasets. Built with NumPy, Pandas, and Matplotlib to help explore real-world data insights efficiently.</p>
+      <div class="proj-tags">
+        <span class="ptag">Python</span>
+        <span class="ptag">NumPy</span>
+        <span class="ptag">Pandas</span>
+        <span class="ptag">Matplotlib</span>
+      </div>
+    </div>
+
+    <div class="proj-card" data-aos="fade-up" data-aos-delay="200">
+      <div class="proj-top">
+        <div class="proj-icon">⚙️</div>
+        <div class="proj-actions">
+          <a href="#" class="proj-icon-btn" title="GitHub" target="_blank">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+          </a>
+          <a href="#" class="proj-icon-btn" title="Live Demo" target="_blank">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+        </div>
+      </div>
+      <h3 class="proj-name">SIH Backend System</h3>
+      <p class="proj-desc">Backend system developed during Smart India Hackathon participation.</p>
+      <div class="proj-tags">
+        <span class="ptag">Python</span>
+        <span class="ptag">Django</span>
+        
+      </div>
+    </div>
+
+    <div class="proj-card" data-aos="fade-up" data-aos-delay="300">
+      <div class="proj-top">
+        <div class="proj-icon">✂️</div>
+        <div class="proj-actions">
+          <a href="#" class="proj-icon-btn" title="GitHub" target="_blank">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+          </a>
+          <a href="#" class="proj-icon-btn" title="Live Demo" target="_blank">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+        </div>
+      </div>
+      <h3 class="proj-name">Rock Paper Scissors</h3>
+      <p class="proj-desc">Interactive Python CLI game implementing conditional logic, user input handling, score tracking, and randomized AI opponent decisions. Clean code structure.</p>
+      <div class="proj-tags">
+        <span class="ptag">Python</span>
+        <span class="ptag">Logic</span>
+        <span class="ptag">CLI</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══════════════ CERTIFICATES ══════════════ -->
+<section id="certificates" class="section" data-aos="fade-up">
+  <div class="sec-tag"><span class="sec-num">05</span> / <span class="sec-name">CERTIFICATES</span></div>
+  <h2 class="sec-title">Certificates</h2>
+  <p class="sec-sub">Click any card to view the certificate</p>
+
+  <div class="cert-grid">
+    <a href="assets/certificates/1styear.pdf" target="_blank" class="cert-card" data-aos="fade-up" data-aos-delay="200">
+      <div class="cert-ico">📜</div>
+      <div class="cert-info">
+        <strong>Academic Excellence 1st Year</strong>
+        <span>by Dept. of Basic Sciences & Humanities , MSIT</span>
+      </div>
+    </a>
+
+    <a href="assets/certificates/python.pdf" target="_blank" class="cert-card" data-aos="fade-up" data-aos-delay="100">
+      <div class="cert-ico">📜</div>
+      <div class="cert-info">
+        <strong>Programming Approach using Python</strong>
+        <span>by Nikhil Bharat Shiksha Parishad (NBSP)</span>
+      </div>
+    </a>
+
+    <a href="assets/certificates/dsa_python.pdf" target="_blank" class="cert-card" data-aos="fade-up" data-aos-delay="200">
+      <div class="cert-ico">📜</div>
+      <div class="cert-info">
+        <strong>DSA using Python</strong>
+        <span>by Nikhil Bharat Shiksha Parishad (NBSP)e</span>
+      </div>
+    </a>
+
+    <!-- Add more certificate cards here by duplicating the block above -->
+     <a href="assets/certificates/PowerBI.pdf" target="_blank" class="cert-card" data-aos="fade-up" data-aos-delay="200">
+      <div class="cert-ico">📜</div>
+      <div class="cert-info">
+        <strong>PowerBI Workshop</strong>
+        <span>HackerSpace-coding community of MSIT,Kolkata</span>
+      </div>
+    </a>
+
+    <a href="assets/certificates/LLM.pdf" target="_blank" class="cert-card" data-aos="fade-up" data-aos-delay="200">
+      <div class="cert-ico">📜</div>
+      <div class="cert-info">
+        <strong>LLM Workshop</strong>
+        <span>by DSTBT and Govt. of West Bengal</span>
+      </div>
+    </a>
+
+    <a href="assets/certificates/sih.pdf" target="_blank" class="cert-card" data-aos="fade-up" data-aos-delay="200">
+      <div class="cert-ico">📜</div>
+      <div class="cert-info">
+        <strong>Smart India Hackathon 2025</strong>
+        <span>by IIC-MSIT</span>
+      </div>
+    </a>
+
+    <a href="assets/certificates/IIC_internship.pdf" target="_blank" class="cert-card" data-aos="fade-up" data-aos-delay="200">
+      <div class="cert-ico">📜</div>
+      <div class="cert-info">
+        <strong>Full Stack Web Development Training</strong>
+        <span>by Indian Institute of Internship</span>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+<!-- ══════════════ CONTACT ══════════════ -->
+<section id="contact" class="section contact-section" data-aos="fade-up">
+  <div class="sec-tag contact-tag"><span class="sec-num">06</span> / <span class="sec-name">CONTACT</span></div>
+  <h2 class="contact-title">Let's Connect</h2>
+  <p class="contact-lead">Open to internships, collaborations, and interesting projects.</p>
+  <p class="contact-desc">Whether you have an opportunity, a project idea, or just want to say hi — my inbox is always open. I'm currently looking for internship opportunities in backend development and AI/ML.</p>
+
+  <a href="mailto:your@email.com" class="say-hello-btn">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+    Say Hello
+  </a>
+
+  <div class="social-row">
+    <a href="https://github.com/" class="social-circle" target="_blank" title="GitHub">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+    </a>
+    <a href="https://www.linkedin.com/in/chandranivchakraborty/" class="social-circle" target="_blank" title="LinkedIn">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+    </a>
+    <a href="https://leetcode.com/u/Chandraniv_Chakraborty/" class="social-circle" target="_blank" title="LeetCode">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z"/></svg>
+    </a>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer class="footer">
+  <p>Built with <span class="heart">❤️</span> by Chandraniv Chakraborty</p>
+  <p class="footer-copy">© 2026 All rights reserved.</p>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
